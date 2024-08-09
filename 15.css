@@ -1,0 +1,20 @@
+body {
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    height:100vh;
+}
+.btn {
+    font-size:larger;
+    background-color:aqua;
+    height:10px;
+    width:100px;
+    padding:10px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+}
+.btn:hover{
+    box-shadow:10px 10px 20px rgba(176, 23, 23, 0.5);
+}
